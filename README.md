@@ -1,7 +1,7 @@
 # PHP7 (FPM) + Nginx
 Build our PHP7 + Nginx container (It was created for testing our apps)
 
-### How to use this image
+## How to use this image
 It must map the application folder to make it work
 ```
 $ docker run --name php7_testing -v /my/own/app:/www -d dafitidev/nginx-php7fpm
